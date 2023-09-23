@@ -1,7 +1,7 @@
 const SocialLinks = ({ href, className, childClass }) => {
   return (
     <li>
-      <a href={href} target="_blank" className={childClass}>
+      <a href={href} className={childClass}>
         <i className={className}></i>
       </a>
     </li>
